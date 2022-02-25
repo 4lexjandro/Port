@@ -7,7 +7,7 @@ import Resume from './gallery/Resume.pdf'
 
 
 
-const About = () => {
+export const About = () => {
       return (
           <div className="aboutpage">
 
@@ -30,6 +30,4 @@ const About = () => {
                    
           </div>
       )
-  };
-
-export default About;
+  }

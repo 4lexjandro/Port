@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const Skills = () => {
+export const Projects = () => {
   return <div>
-      Skills page
+      Projects Page
   </div>
 }
 
