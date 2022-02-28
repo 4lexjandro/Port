@@ -1,5 +1,6 @@
 import React from 'react'
 import Resume from './gallery/Resume.pdf'
+import '../App.css';
 
 
 
