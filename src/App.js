@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Bar} from './components/Bar';
 import { useSpring, animated} from 'react-spring';
+import  SocialMedia  from './miniComponents/SocialMedia';
 
 
 function App() {
@@ -39,10 +40,13 @@ function App() {
             <br/>
             <br/>
             <br/>
-            <h5>Welcome to my page!</h5>
+            
+            <SocialMedia/>
+            
             </animated.div>
         </div>
        </animated.div> 
+       
       
     
       </div>

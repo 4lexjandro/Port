@@ -9,8 +9,8 @@ import {
 import {About} from './About'
 import {Home} from './Home'
 import {Contact} from './Contact'
-
 import {Projects} from './Projects'
+import SocialMedia from '../miniComponents/SocialMedia'
 
 export const Bar = () => {
   return (
@@ -23,8 +23,8 @@ export const Bar = () => {
     <Nav className="me-auto">
       <Nav.Link as={Link} to="/About">About</Nav.Link>
       <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-      
       <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
+      
     </Nav>
     </Container>
   </Navbar>
