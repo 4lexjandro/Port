@@ -8,6 +8,7 @@
   place-items: center;
   padding: 10px;
   font-family: cursive;
+  
 }
 
 
@@ -49,4 +50,8 @@ a.twitter {
 
 a.instagram {
   color: black;
+}
+
+.email{
+  text-align: center;
 }

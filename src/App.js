@@ -5,6 +5,7 @@ import { useSpring, animated} from 'react-spring';
 import  SocialMedia  from './miniComponents/SocialMedia';
 
 
+
 function App() {
 
 
@@ -17,7 +18,7 @@ function App() {
 
   const style2 = useSpring({
   from: { marginLeft: 0},
-  to: { marginLeft: 1000 },
+  to: { marginLeft: 1020 },
   delay: 1600,
   config: { duration: 3000 }
 })
