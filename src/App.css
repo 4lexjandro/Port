@@ -14,9 +14,11 @@
 
 .aboutpage{
   font-family: cursive;
-  
-  
+}
 
+.Contactpage{
+  font-family: cursive;
+  text-align: center;
 }
 
 
@@ -24,6 +26,7 @@
 .social-container {
   background: white;
   padding: 25px 50px;
+  color: black;
 }
 
 a.social {
@@ -36,22 +39,31 @@ a.social:hover {
   transform: translateY(-2px);
 }
 
-a.youtube {
+a.social {
   color: black;
 }
 
-a.facebook {
-  color: black;
-}
-
-a.twitter {
-  color: black;
-}
-
-a.instagram {
-  color: black;
-}
 
 .email{
   text-align: center;
+}
+.center{
+  text-align: center;
+}
+.large{
+  font-size: 35px;
+  text-align: center;
+}
+
+
+
+.fade-in{
+  transition: opacity 1s ease;
+
+}
+
+.fade-out{
+  opacity: 0;
+  transition: opacity 1s ease;
+
 }

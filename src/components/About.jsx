@@ -1,7 +1,7 @@
 import React from 'react'
 import Resume from './gallery/Resume.pdf'
 import '../App.css';
-import {Navbar, Nav, Container, NavDropdown} from 'react-bootstrap'
+import  SocialMedia  from '../miniComponents/SocialMedia';
 
 
 
@@ -9,7 +9,9 @@ import {Navbar, Nav, Container, NavDropdown} from 'react-bootstrap'
 
 export const About = () => {
       return (
+        <>
           <div className="aboutpage">
+             
 
             
         
@@ -63,13 +65,17 @@ export const About = () => {
             <br />
             <br />
             
-            
+            <div className = "center"> 
+            <SocialMedia />
+            </div>
            
+          
 
             
 
           
                    
           </div>
+          </>
       )
   }

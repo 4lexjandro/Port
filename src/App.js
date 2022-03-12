@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {Bar} from './components/Bar';
 import { useSpring, animated} from 'react-spring';
-import  SocialMedia  from './miniComponents/SocialMedia';
+import Good from './components/gallery/Good.jpeg'
 
 
 
@@ -18,7 +18,7 @@ function App() {
 
   const style2 = useSpring({
   from: { marginLeft: 0},
-  to: { marginLeft: 1020 },
+  to: { marginLeft: 920 },
   delay: 1600,
   config: { duration: 3000 }
 })
@@ -41,8 +41,9 @@ function App() {
             <br/>
             <br/>
             <br/>
+             
+        <img src={Good} alt="Good image" height={150} width={150}/>
             
-            <SocialMedia/>
             
             </animated.div>
         </div>

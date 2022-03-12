@@ -38,8 +38,7 @@ const [toSend, setToSend] = useState({
 
   return (
     <div className="email">
-      <br/>
-      <br/>
+    
       <form onSubmit={onSubmit}>
   <input
     type='text'
